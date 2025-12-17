@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#V#",
+    "###"
+  ],
+  "key": {
+    "V": {
+      "item": "sunbreaking:void_light_shard"
+    },
+    "#": {
+      "item": "minecraft:spectral_arrow"
+    }
+  },
+  "result": {
+    "item": "sunbreaking:shadowshot_arrow",
+    "count": 8
+  }
+}

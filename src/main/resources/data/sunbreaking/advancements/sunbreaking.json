@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:blazing_appearance_smithing_template"
+    },
+    "title": "Sunbreaking",
+    "description": "A mod by BrandRobKus",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/magma.png"
+  },
+  "criteria": {
+    "immediate": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

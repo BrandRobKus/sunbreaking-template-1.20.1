@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "sunbreaking:wooden_hammer",
+    "sunbreaking:stone_hammer",
+    "sunbreaking:iron_hammer",
+    "sunbreaking:golden_hammer",
+    "sunbreaking:diamond_hammer",
+    "sunbreaking:netherite_hammer"
+  ]
+}

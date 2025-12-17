@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:iron_hammer"
+    },
+    "title": "Hammer Time",
+    "description": "Craft yourself a Throwing Hammer.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:sunbreaking",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:wooden_hammer",
+              "sunbreaking:stone_hammer",
+              "sunbreaking:iron_hammer",
+              "sunbreaking:diamond_hammer",
+              "sunbreaking:golden_hammer",
+              "sunbreaking:netherite_hammer"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

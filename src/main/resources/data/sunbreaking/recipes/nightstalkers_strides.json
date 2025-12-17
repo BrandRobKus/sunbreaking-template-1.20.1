@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sunbreaking:void_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "sunbreaking:void_light"
+  },
+  "result": {
+    "item": "sunbreaking:nightstalkers_strides"
+  }
+}

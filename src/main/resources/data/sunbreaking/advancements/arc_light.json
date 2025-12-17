@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:arc_light"
+    },
+    "title": "Stormcalling",
+    "description": "Collect a Nether Star, and imbue it with Lightning",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:sunbreaking",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:arc_light"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

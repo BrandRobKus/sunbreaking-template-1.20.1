@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sunbreaking:solar_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "sunbreaking:solar_light"
+  },
+  "result": {
+    "item": "sunbreaking:sunbreakers_helmet"
+  }
+}

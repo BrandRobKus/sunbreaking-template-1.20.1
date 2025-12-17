@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sunbreaking:item/sunbreakers_greaves",
+    "layer1": "minecraft:trims/items/leggings_trim_amethyst"
+  }
+}

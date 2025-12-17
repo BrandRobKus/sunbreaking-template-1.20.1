@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "sunbreaking:aspect_of_tempering",
+    "sunbreaking:aspect_of_radiance",
+    "sunbreaking:aspect_of_resolve",
+    "sunbreaking:aspect_of_solace"
+  ]
+}

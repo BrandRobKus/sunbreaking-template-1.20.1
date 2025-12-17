@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "com.brandrobkus.sunbreaking.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"EnchantmentAttachMixin",
+		"PlayerSuperMixin",
+		"PlayerEntityMixin",
+		"MinecraftServerMixin",
+		"LivingEntityOnDeathMixin"
+	],
+	"client": [
+		"PlayerEntityRendererMixin",
+		"ItemRendererAccessor",
+		"ItemRendererMixin",
+		"ModelLoaderMixin",
+		"InGameHudMixin",
+		"ArmorFeatureRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

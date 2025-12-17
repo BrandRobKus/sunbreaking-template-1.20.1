@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:solar_light"
+    },
+    "title": "Sol Survivor",
+    "description": "Slay a Wither, and set their star ablaze.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:iron_hammer",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:solar_light"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

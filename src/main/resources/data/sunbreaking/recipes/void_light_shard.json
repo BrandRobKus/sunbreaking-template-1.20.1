@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sunbreaking:void_light"
+    }
+  ],
+  "result": {
+    "item": "sunbreaking:void_light_shard",
+    "count": 9
+  }
+}

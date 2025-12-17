@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:hellbent_hammer_of_sol"
+    },
+    "title": "Explosive Personality",
+    "description": "Try out a new look for your Hammer!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:hammer_of_sol",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:blazing_hammer_of_sol",
+              "sunbreaking:hellbent_hammer_of_sol"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

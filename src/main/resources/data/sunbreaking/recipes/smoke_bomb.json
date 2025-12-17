@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#V#",
+    "#G#"
+  ],
+  "key": {
+    "V": {
+      "item": "sunbreaking:void_light_shard"
+    },
+    "#": {
+      "item": "minecraft:string"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "sunbreaking:smoke_bomb",
+    "count": 4
+  }
+}

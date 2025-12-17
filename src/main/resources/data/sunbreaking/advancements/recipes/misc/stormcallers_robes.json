@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_arc_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:arc_light"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sunbreaking:stormcallers_robes"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_arc_light",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sunbreaking:stormcallers_robes"
+    ]
+  },
+  "sends_telemetry_event": false
+}

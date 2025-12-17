@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:blackstone"
+  },
+  "base": {
+    "tag": "sunbreaking:hammer_of_sol"
+  },
+  "result": {
+    "item": "sunbreaking:hellbent_hammer_of_sol"
+  },
+  "template": {
+    "item": "sunbreaking:hellbent_appearance_smithing_template"
+  }
+}

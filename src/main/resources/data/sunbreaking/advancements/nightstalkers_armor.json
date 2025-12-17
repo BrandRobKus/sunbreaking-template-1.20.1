@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:void_upgrade_smithing_template"
+    },
+    "title": "Frabjous",
+    "description": "Use a Void Light Smithing Template to upgrade any piece of Netherite Armor.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:void_light",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:nightstalkers_mask",
+              "sunbreaking:nightstalkers_jacket",
+              "sunbreaking:nightstalkers_pants",
+              "sunbreaking:nightstalkers_strides"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

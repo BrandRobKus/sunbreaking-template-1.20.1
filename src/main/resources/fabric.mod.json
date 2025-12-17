@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sunbreaking",
+	"version": "1.20.1",
+	"name": "Sunbreaking",
+	"description": "Adds the Hammer of Sol from Destiny into Minecraft!",
+	"authors": [
+		"Brandrobkus"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sunbreaking/textures/item/hammer_of_sol_2d.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.brandrobkus.sunbreaking.Sunbreaking"
+		],
+		"client": [
+			"com.brandrobkus.sunbreaking.SunbreakingClient"
+		],
+		"fabric-datagen": [
+			"com.brandrobkus.sunbreaking.SunbreakingDataGenerator"
+		]
+	},
+	"mixins": [
+		"sunbreaking.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

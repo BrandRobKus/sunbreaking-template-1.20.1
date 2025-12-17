@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:stormcallers_robes"
+    },
+    "title": "Stunning Looks",
+    "description": "Create a full set of Stormcaller's Armor.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:stormcallers_armor",
+  "criteria": {
+    "full_stormcallers_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sunbreaking:stormcallers_headdress"]
+          },
+          {
+            "items": ["sunbreaking:stormcallers_robes"]
+          },
+          {
+            "items": ["sunbreaking:stormcallers_pants"]
+          },
+          {
+            "items": ["sunbreaking:stormcallers_steps"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "full_stormcallers_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

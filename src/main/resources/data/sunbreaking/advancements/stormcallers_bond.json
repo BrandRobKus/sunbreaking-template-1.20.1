@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:stormcallers_bond"
+    },
+    "title": "Arc-ane Focus",
+    "description": "Use the power of Arc Light to catch lightning in a bottle, and make it your own.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:arc_light",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:stormcallers_bond"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

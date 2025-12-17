@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:shadowshot_bow"
+    },
+    "title": "Null And Void",
+    "description": "Upgrade your Bow to a more sinister model.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:void_light",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:shadowshot_bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

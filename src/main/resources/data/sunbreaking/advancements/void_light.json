@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:void_light"
+    },
+    "title": "Nightstalking",
+    "description": "Obtain a Nether Star, and learn the secrets of the Void.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:sunbreaking",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:void_light"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:paper"
+  },
+  "base": {
+    "tag": "sunbreaking:hammer_of_sol"
+  },
+  "result": {
+    "item": "sunbreaking:2d_hammer_of_sol"
+  },
+  "template": {
+    "item": "sunbreaking:flat_appearance_smithing_template"
+  }
+}

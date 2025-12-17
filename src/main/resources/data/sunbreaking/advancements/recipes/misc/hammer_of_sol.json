@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_solar_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:solar_light"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sunbreaking:hammer_of_sol"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_solar_light",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sunbreaking:hammer_of_sol"
+    ]
+  },
+  "sends_telemetry_event": false
+}

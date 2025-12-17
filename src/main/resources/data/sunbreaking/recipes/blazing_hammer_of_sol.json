@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:blaze_powder"
+  },
+  "base": {
+    "tag": "sunbreaking:hammer_of_sol"
+  },
+  "result": {
+    "item": "sunbreaking:blazing_hammer_of_sol"
+  },
+  "template": {
+    "item": "sunbreaking:blazing_appearance_smithing_template"
+  }
+}

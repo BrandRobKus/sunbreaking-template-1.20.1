@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:hammer_of_sol"
+    },
+    "title": "Strike While The Iron's Hot",
+    "description": "Upgrade your Iron Hammer into an explosive alternative.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:solar_light",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sunbreaking:hammer_of_sol"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

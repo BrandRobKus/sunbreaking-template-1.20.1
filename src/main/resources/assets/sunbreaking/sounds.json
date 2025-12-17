@@ -1,0 +1,133 @@
+{
+  "hammer_throw": {
+    "subtitle": "sounds.sunbreaking.hammer_throw",
+    "sounds": [
+      "sunbreaking:hammer_throw"
+    ]
+  },
+  "base_hammer_throw": {
+    "subtitle": "sounds.sunbreaking.base_hammer_throw",
+    "sounds": [
+      "sunbreaking:base_hammer_throw"
+    ]
+  },
+  "hammer_hit": {
+    "subtitle": "sounds.sunbreaking.hammer_hit",
+    "sounds": [
+      "sunbreaking:hammer_hit"
+    ]
+  },
+  "hammer_return": {
+    "subtitle": "sounds.sunbreaking.hammer_return",
+    "sounds": [
+      "sunbreaking:hammer_return"
+    ]
+  },
+  "shadowshot_node": {
+    "subtitle": "sounds.sunbreaking.shadowshot_node",
+    "sounds": [
+      "sunbreaking:shadowshot_node"
+    ]
+  },
+  "storm_cloud": {
+    "subtitle": "sounds.sunbreaking.storm_cloud",
+    "sounds": [
+      "sunbreaking:storm_cloud"
+    ]
+  },
+  "storm_ball": {
+    "subtitle": "sounds.sunbreaking.storm_ball",
+    "sounds": [
+      "sunbreaking:storm_ball"
+    ]
+  },
+  "cooldown_end": {
+    "subtitle": "sounds.sunbreaking.cooldown_end",
+    "sounds": [
+      "sunbreaking:cooldown_end"
+    ]
+  },
+  "gear_cooldown_end": {
+    "subtitle": "sounds.sunbreaking.gear_cooldown_end",
+    "sounds": [
+      "sunbreaking:gear_cooldown_end"
+    ]
+  },
+  "invisibility_trigger": {
+    "subtitle": "sounds.sunbreaking.invisibility_trigger",
+    "sounds": [
+      "sunbreaking:invisibility_trigger"
+    ]
+  },
+  "invisibility_end": {
+    "subtitle": "sounds.sunbreaking.invisibility_end",
+    "sounds": [
+      "sunbreaking:invisibility_end"
+    ]
+  },
+  "smoke_bomb_throw": {
+    "subtitle": "sounds.sunbreaking.smoke_bomb_throw",
+    "sounds": [
+      "sunbreaking:smoke_bomb_throw"
+    ]
+  },
+  "smoke_bomb_explode": {
+    "subtitle": "sounds.sunbreaking.smoke_bomb_explode",
+    "sounds": [
+      "sunbreaking:smoke_bomb_explode"
+    ]
+  },
+
+  "glaive_shot": {
+    "subtitle": "sounds.sunbreaking.glaive_shot",
+    "sounds": [
+      "sunbreaking:glaive_sound_1",
+      "sunbreaking:glaive_sound_2",
+      "sunbreaking:glaive_sound_3",
+      "sunbreaking:glaive_sound_4"
+    ]
+  },
+
+  "glaive_block_start": {
+    "subtitle": "sounds.sunbreaking.glaive_block_start",
+    "sounds": [
+      "sunbreaking:glaive_block_start"
+    ]
+  },
+
+  "glaive_block_concurrent": {
+    "subtitle": "sounds.sunbreaking.glaive_block_concurrent",
+    "sounds": [
+      "sunbreaking:glaive_block_concurrent",
+      "sunbreaking:glaive_block_concurrent_2",
+      "sunbreaking:glaive_block_concurrent_3",
+      "sunbreaking:glaive_block_concurrent_4"
+    ]
+  },
+
+  "glaive_explosion": {
+    "subtitle": "sounds.sunbreaking.glaive_explosion",
+    "sounds": [
+      "sunbreaking:glaive_explosion"
+    ]
+  },
+
+  "cooldown_indicator": {
+    "subtitle": "sounds.sunbreaking.cooldown_indicator",
+    "sounds": [
+      "sunbreaking:cooldown_sound"
+    ]
+  },
+  "aspect_remove": {
+    "subtitle": "sounds.sunbreaking.aspect_remove",
+    "sounds": [
+      "sunbreaking:aspect_remove"
+    ]
+  },
+  "aspect_equip": {
+    "subtitle": "sounds.sunbreaking.aspect_equip",
+    "sounds": [
+      "sunbreaking:aspect_equip"
+    ]
+  }
+}

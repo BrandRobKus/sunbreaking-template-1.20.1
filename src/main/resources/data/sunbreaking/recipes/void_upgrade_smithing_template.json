@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#",
+    "#N#",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "F": {
+      "item": "minecraft:ender_pearl"
+    },
+    "N": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "G": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "item": "sunbreaking:void_upgrade_smithing_template",
+    "count": 1
+  }
+}

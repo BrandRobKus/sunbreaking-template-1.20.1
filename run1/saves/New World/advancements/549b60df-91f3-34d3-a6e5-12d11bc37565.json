@@ -1,0 +1,15 @@
+{
+  "sunbreaking:sunbreaking": {
+    "criteria": {
+      "immediate": "2025-12-08 22:10:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-12-08 22:10:16 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

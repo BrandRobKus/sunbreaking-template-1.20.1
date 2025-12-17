@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "iAi",
+    " i "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lightning_rod"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "sunbreaking:arc_light"
+    }
+  },
+  "result": {
+    "item": "sunbreaking:stormcallers_bond",
+    "count": 1
+  }
+}

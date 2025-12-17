@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "sunbreaking:nightstalkers_jacket"
+    },
+    "title": "Consumed by the Void",
+    "description": "Create a full set of Nightstalker's Armor.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "sunbreaking:nightstalkers_armor",
+  "criteria": {
+    "full_nightstalkers_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sunbreaking:nightstalkers_mask"]
+          },
+          {
+            "items": ["sunbreaking:nightstalkers_jacket"]
+          },
+          {
+            "items": ["sunbreaking:nightstalkers_pants"]
+          },
+          {
+            "items": ["sunbreaking:nightstalkers_strides"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "full_nightstalkers_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "sunbreaking:wooden_glaive",
+    "sunbreaking:stone_glaive",
+    "sunbreaking:iron_glaive",
+    "sunbreaking:gold_glaive",
+    "sunbreaking:diamond_glaive",
+    "sunbreaking:netherite_glaive"
+  ]
+}

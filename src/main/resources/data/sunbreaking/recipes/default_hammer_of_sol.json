@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "base": {
+    "tag": "sunbreaking:hammer_of_sol"
+  },
+  "result": {
+    "item": "sunbreaking:hammer_of_sol"
+  },
+  "template": {
+    "item": "sunbreaking:hammer_appearance_smithing_template"
+  }
+}

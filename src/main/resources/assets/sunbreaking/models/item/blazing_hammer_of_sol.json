@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sunbreaking:item/blazing_hammer_of_sol_2d"
+  }
+}

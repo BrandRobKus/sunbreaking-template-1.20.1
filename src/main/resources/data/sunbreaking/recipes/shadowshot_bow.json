@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "sunbreaking:void_light"
+  },
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "result": {
+    "item": "sunbreaking:shadowshot_bow"
+  },
+  "template": {
+    "item": "sunbreaking:void_upgrade_smithing_template"
+  }
+}
